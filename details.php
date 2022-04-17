@@ -7,7 +7,7 @@
 <section class="container-fluid">
 	<div class="container search">
 		<div style="left: 37%;">
-			<h2> mall</h2>
+			<h2><?php echo $_GET['name']; ?></h2>
 		</div>
 	</div>
 </section>

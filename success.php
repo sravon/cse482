@@ -85,7 +85,7 @@ if($code == 200 && !( curl_errno($handle)))
 	echo '<tr><th>Amount :</th><td>'.$amount.'</td></tr>';
 	echo '<tr><th>Bank Transaction Id :</th><td>'.$bank_tran_id.'</td></tr>';
 	echo '<tr><th>Payment Type :</th><td>'.$card_type.'</td></tr>';
-	echo '<tr><th></th><td><a href="order.php">View ORDER</a></td></tr>';
+	echo '<tr><th></th><td><a href="home.php">Home</a></td></tr>';
 	echo '</div>';
 	
 } else {

@@ -31,7 +31,7 @@
 					      while ($data = mysqli_fetch_array($result)) {
     				?>
 						<li style="">
-							<a href="details.php?id=<?php echo $data['id']; ?>" style="text-decoration:none; padding: 20px;"><?php echo $data['shop_name']; ?></a>
+							<a href="details.php?id=<?php echo $data['id']; ?>&name=<?php echo $data['shop_name'];?>" style="text-decoration:none; padding: 20px;"><?php echo $data['shop_name']; ?></a>
 						</li>
 					<?php }} ?>
 				</ul>
@@ -56,7 +56,7 @@
 				<br>
 				<br>
 				<div style="">
-					<a href="details.php?id=<?php echo $data['id']; ?>" class="addToWishlist btn" style="float:right;">Details</a>
+					<a href="details.php?id=<?php echo $data['id']; ?>&name=<?php echo $data['shop_name'];?>" class="addToWishlist btn" style="float:right;">Details</a>
 				</div>
 			</div>
 	<?php }} ?>

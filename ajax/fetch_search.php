@@ -13,7 +13,7 @@
 		
 		while ($row = mysqli_fetch_array($result)) {
 			$output .='<div class="col">
-				<img src="'.$row['image'].'" style="width: 100%;height: 150px;">
+				<img src="'.$row['mall_img'].'" style="width: 100%;height: 150px;">
 				<h2 style="padding: 10px;text-align: center;background-color: #ccc;margin: 0;">'.$row['shop_name'].'</h2>
 				<div style="display:block;height: 32px;">
 					<p style="float: left;margin-left: 10px;font-size: 22px;">Address: <span style="color:green;">'.$row['address'].'</span></p>
