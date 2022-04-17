@@ -21,7 +21,7 @@
 				<br>
 				<br>
 				<div style="">
-					<button class="addToWishlist btn" style="float:right;">Details</button>
+					<a href="details.php?id='.$row['id'].'" class="addToWishlist btn" style="float:right;">Details</a>
 				</div>
 			</div>';
 		}

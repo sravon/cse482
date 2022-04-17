@@ -87,7 +87,7 @@ if($code == 200 && !( curl_errno($handle)))
 	echo '<tr><th>Payment Type :</th><td>'.$card_type.'</td></tr>';
 	echo '<tr><th></th><td><a href="order.php">View ORDER</a></td></tr>';
 	echo '</div>';
-	$Order->UpdateOrder($card_type, $tran_id, $_COOKIE['user_id']);
+	
 } else {
 
 	echo "Failed to connect with SSLCOMMERZ";

@@ -11,7 +11,7 @@ if (isset($_SESSION['login'])) {
   header('Location: index.php');
 }
 
-$connect = mysqli_connect("localhost", "root" );
+$connect = mysqli_connect("localhost", "kazi" , "Assura@143%");
 
 mysqli_select_db($connect, 'bse482lab');
 
@@ -55,7 +55,8 @@ if(isset($_POST['submit'])){
         <span>Remember me</span>    
         <br><br>    
         
-        <button type="button">Forgot Password</button>   
+        <button type="button">Forgot Password</button>  
+        <a href="/register.php">Register Account</a>
     </form>     
 </div>    
 </body>    
