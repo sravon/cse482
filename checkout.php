@@ -9,9 +9,9 @@ $post_data['store_passwd'] = "arkco5f6f282f06984@ssl";
 $post_data['total_amount'] = $_GET['price'];
 $post_data['currency'] = "BDT";
 $post_data['tran_id'] = "SSLCZ_TEST_".uniqid();
-$post_data['success_url'] = "http://localhost/cse482lab/success.php";
-$post_data['fail_url'] = "http://localhost/new_sslcz_gw/fail.php";
-$post_data['cancel_url'] = "http://localhost/new_sslcz_gw/cancel.php";
+$post_data['success_url'] = "http://cse482.shrabon.me/success.php";
+$post_data['fail_url'] = "http://cse482.shrabon.me/fail.php";
+$post_data['cancel_url'] = "http://cse482.shrabon.me/cancel.php";
 # $post_data['multi_card_name'] = "mastercard,visacard,amexcard";  # DISABLE TO DISPLAY ALL AVAILABLE
 
 # EMI INFO

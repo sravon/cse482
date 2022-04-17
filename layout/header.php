@@ -23,9 +23,8 @@
 <body>
 <div class="topnav" id="myTopnav">
   <div>
-  	<a href="home.html" class="active">Home</a>
-	  <a href="contact.html">Contact</a>
-	  <a href="about">About</a>
+  	<a href="index.php" class="active">Home</a>
+	  <a href="contact.php">Contact</a>
   </div>
   <li style="float:right;list-style: none;margin-right: 70px;">
   	
