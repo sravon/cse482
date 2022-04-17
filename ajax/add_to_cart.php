@@ -6,7 +6,7 @@ if (isset($_SESSION['login'])) {
 	$login = false;
 }
 
-$connect = mysqli_connect("localhost","root","","bse482lab");
+$connect = mysqli_connect("localhost","kazi","Assura@143%","bse482lab");
 if($login){
 	if (isset($_POST['getid'])) {
 		$sql = "SELECT * FROM `cart` WHERE details_id='".$_POST['getid']."' and user_id='".$_SESSION['user_id']."'";

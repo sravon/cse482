@@ -1,5 +1,5 @@
 <?php 
-	$connect = mysqli_connect("localhost","root","","bse482lab");
+	$connect = mysqli_connect("localhost","kazi","Assura@143%","bse482lab");
 	if (isset($_POST['txt'])) {
 		$sql = "SELECT * FROM shoppingmall WHERE loc_id = '".$_POST['txt']."'";
 		
